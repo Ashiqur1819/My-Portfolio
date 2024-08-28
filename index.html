@@ -26,6 +26,14 @@
     <script src="https://cdn.jsdelivr.net/npm/pagedone@1.2.1/src/js/pagedone.js"></script>
     <!-- Pagedone cdn ends here -->
 
+    <style>
+        body{
+background: #1e272e;
+
+
+        }
+    </style>
+
     <!-- Script tag starts here -->
     <script>
         tailwind.config = {
@@ -45,17 +53,260 @@
     </script>
     <!-- Script tag ends here -->
 </head>
-<body class="bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e] font-poppins">
+<body class=" font-poppins">
 
 <!-- Header section starts here -->
-<header>
+<header class="container mx-auto  px-3 md:px-6 lg:px-12">
+    <!-- Navbar section starts here -->
+    <nav class=" md:text-white py-6">
+        <div class="navbar justify-between px-0">
+            <div class="navbar-start">
+                <a><img src="images/logo6.png" class="w-3/5 md:w-2/5 lg:w-1/2" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex mr-24">
+                <ul class="menu menu-horizontal text-base text-gray-300">
+                    <li class="hover:text-white"><a>Home</a></li>
+                    <li class="hover:text-white"><a>Services</a></li>
+                    <li class="hover:text-white"><a>About</a></li>
+                    <li class="hover:text-white"><a>Skills</a></li>
+                    <li class="hover:text-white"><a>Portfolio</a></li>
+                    <li class="hover:text-white"><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <div class="hidden md:block">
+                    <button type='button' class='py-2.5 px-6 rounded-lg border border-solid border-cyan-500  cursor-pointer font-semibold text-center shadow-xs text-transparent bg-clip-text bg-gradient-to-r from-cyan-400  to-cyan-600 hover:text-white'>Contact_Me</button>
+                </div>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="lg:hidden text-white justify-end p-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 text-white bg-[#161a1d] w-52 p-2 shadow border border-gray-700 right-0">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Skills</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar section ends here -->
 
+    <!-- Hero section starts here -->
+    <div class="mt:6 md:mt-12">
+        <div class="hero">
+            <div class="hero-content p-0 flex-col lg:flex-row-reverse gap-12 md:gap-16 lg:gap-24">
+                <div class="w-full">
+                    <img src="images/hero.png" class="w-full"/>
+                </div>
+                <div class="w-full">
+                    <h3 class="text-lg text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d]  to-[#11998e] uppercase font-semibold mb-3">Hello There, Welcome to my site</h3>
+                    <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400  to-cyan-600 uppercase mb-6">I'm Ashiqur Rahman</h1>
+                    <p class=" text-gray-300 text-justify mb-6">I am a professional web developer. I love and enjoy to create and develop many kinds of website. I have been doing web development for the last many years.
+                    </p>
+                    <div class="text-gray-300 text-xl flex items-center gap-6 mb-12">
+                        <a href=""><i class="fa-brands fa-square-facebook bg-gradient-to-r from-[#1e272e] to-[#243B55] p-3 rounded-full hover:text-white"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin bg-gradient-to-r from-[#1e272e] to-[#243B55] p-3 rounded-full hover:text-white"></i></a>
+                        <a href=""><i class="fa-brands fa-square-github bg-gradient-to-r from-[#1e272e] to-[#243B55] p-3 rounded-full hover:text-white"></i></a>
+                    </div>
+                    <button type='button' class='w-full md:w-fit py-2.5 px-6 rounded-lg bg-gradient-to-r from-[#38ef7d] to-[#11998e] text-white cursor-pointer font-semibold text-center hover:bg-gradient-to-l'>My Portfolio</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero section ends here -->
 </header>
 <!-- Header section ends here -->
 
 <!-- Main section starts here -->
-<main>
+<main class="container mx-auto">
+<!-- About section starts here -->
+<section class="px-3 md:px-6 lg:px-12 mt-12 md:mt-16 lg:mt-24">
+    <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-400  to-cyan-600">About Me</h2>
+    <div class="hero mt-12 md:mt-16 lg:mt-24">
+        <div class="hero-content p-0 flex-col lg:flex-row gap-12 md:gap-16 lg:gap-24">
+            <div class="w-full">
+                <img src="images/about.png" class="w-full"/>
+            </div>
+            <div class="w-full space-y-12">
+                <p class=" text-gray-300 text-justify">I am Ashiqur Rahman, I am a web developer and passionate about creating and shaping the digital landscape. With expertise in a range of programming languages, including HTML, CSS, and JavaScript. I excel in crafting visually appealing and functional websites. The world of web development is a dynamic one, and I am likely to be at the forefront, embracing new technologies and methodologies to stay ahead of the curve.As a web developer, My work extend beyond mere code; it contributes to the online experiences of users, making the digital world more interactive and accessible. The pursuit of excellence and a genuine passion for coding are likely key drivers in my journey as a web developer.
+                </p>
+                <button type='button' class='py-2.5 px-6 rounded-lg bg-gradient-to-r from-[#38ef7d] to-[#11998e] text-white cursor-pointer font-semibold text-center hover:bg-gradient-to-l'>Download CV</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About section ends here -->
 
+<!-- Service section starts here -->
+<section class="px-3 md:px-6 lg:px-12 mt-12 md:mt-16 lg:mt-24">
+    <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-400  to-cyan-600">My Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12 md:mt-16 lg:mt-24 text-justify">
+        <div class="card bg-gradient-to-r from-[#1e272e] to-[#2a3442] text-gray-400 border-l-4 border-sky-600 rounded-xl shadow-lg transition-all duration-300 hover:shadow-cyan-500/25 hover:-translate-y-3">
+            <div class="card-body space-y-3">
+                <img src="images/frontend.png" class="w-1/4" alt="">
+                <h2 class="card-title text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">Frontend <br> Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quibusdam saepe nesciunt optio maxime suscipit sunt labore ullam maiores incidunt! Facere, quia nisi! Nulla, quas.</p>
+            </div>
+         </div>
+        <div class="card bg-gradient-to-r from-[#1e272e] to-[#2a3442] text-gray-400 border-l-4 border-cyan-600 rounded-xl shadow-lg transition-all duration-300 hover:shadow-cyan-500/25 hover:-translate-y-3">
+            <div class="card-body space-y-3">
+                <img src="images/backend.png" class="w-1/4" alt="">
+                <h2 class="card-title text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">Backend <br> Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quibusdam saepe nesciunt optio maxime suscipit sunt labore ullam maiores incidunt! Facere, quia nisi! Nulla, quas.</p>
+            </div>
+         </div>
+        <div class="card bg-gradient-to-r from-[#1e272e] to-[#2a3442] text-gray-400 border-l-4 border-sky-600 rounded-xl shadow-lg transition-all duration-300 hover:shadow-cyan-500/25 hover:-translate-y-3">
+            <div class="card-body space-y-3">
+                <img src="images/fullstack.png" class="w-1/4" alt="">
+                <h2 class="card-title text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">Fullstack <br> Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quibusdam saepe nesciunt optio maxime suscipit sunt labore ullam maiores incidunt! Facere, quia nisi! Nulla, quas.</p>
+            </div>
+         </div>
+        <div class="card bg-gradient-to-r from-[#1e272e] to-[#2a3442] text-gray-400 border-l-4 border-sky-600 rounded-xl shadow-lg transition-all duration-300 hover:shadow-cyan-500/25 hover:-translate-y-3">
+            <div class="card-body space-y-3">
+                <img src="images/api.png" class="w-1/4" alt="">
+                <h2 class="card-title text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">API <br> Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quibusdam saepe nesciunt optio maxime suscipit sunt labore ullam maiores incidunt! Facere, quia nisi! Nulla, quas.</p>
+            </div>
+         </div>
+        <div class="card bg-gradient-to-r from-[#1e272e] to-[#2a3442] text-gray-400 border-l-4 border-cyan-600 rounded-xl shadow-lg transition-all duration-300 hover:shadow-cyan-500/25 hover:-translate-y-3">
+            <div class="card-body space-y-3">
+                <img src="images/responsive.png" class="w-1/4" alt="">
+                <h2 class="card-title text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">Responsive <br> Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quibusdam saepe nesciunt optio maxime suscipit sunt labore ullam maiores incidunt! Facere, quia nisi! Nulla, quas.</p>
+            </div>
+         </div>
+        <div class="card bg-gradient-to-r from-[#1e272e] to-[#2a3442] text-gray-400 border-l-4 border-sky-600 rounded-xl shadow-lg transition-all duration-300 hover:shadow-cyan-500/25 hover:-translate-y-3">
+            <div class="card-body space-y-3">
+                <img src="images/ui-ux.png" class="w-1/4" alt="">
+                <h2 class="card-title text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">UI/UX <br> Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quibusdam saepe nesciunt optio maxime suscipit sunt labore ullam maiores incidunt! Facere, quia nisi! Nulla, quas.</p>
+            </div>
+         </div>
+    </div>
+</section>
+<!-- Service section ends here -->
+
+<!-- Skill section starts here -->
+<section class="px-3 md:px-6 lg:px-12 mt-12 md:mt-16 lg:mt-24">
+    <div class="mt-12 flex items-center justify-between gap-12 md:gap-16 lg:gap-24">
+        <div class="text-white w-full">
+            <h3 class="text-lg text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e] uppercase font-semibold mb-3">I'm Expert on</h3>
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400  to-cyan-600 mb-6 pb-3">Lets Work Together</h2>
+            <p class="mb-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cum et iusto reiciendis libero, mollitia quibusdam quidem incidunt eum maxime. A magnam at impedit est!</p>
+            <button type='button' class='py-2.5 px-6 rounded-lg bg-gradient-to-r from-[#38ef7d] to-[#11998e] text-white cursor-pointer font-semibold text-center shadow-xs transition-all duration-300 hover:bg-gradient-to-l'>Hire Me Now</button>
+        </div>
+        <div class="flex flex-col gap-4 w-4/5 text-gray-200 font-semibold">
+            <div>
+                <div class="flex items-center justify-between">
+                    <p>HTML</p>
+                    <h4>95%</h4>
+                </div>
+                <progress class="progress progress-info " value="95" max="100"></progress>
+            </div>          
+            <div>
+                <div class="flex items-center justify-between">
+                    <p>CSS</p>
+                    <h4>90%</h4>
+                </div>
+                <progress class="progress progress-success " value="90" max="100"></progress>
+            </div>          
+            <div>
+                <div class="flex items-center justify-between">
+                    <p>JavaScript</p>
+                    <h4>80%</h4>
+                </div>
+                <progress class="progress progress-info" value="80" max="100"></progress>
+            </div>          
+            <div>
+                <div class="flex items-center justify-between">
+                    <p>Tailwind</p>
+                    <h4>90%</h4>
+                </div>
+                <progress class="progress progress-success " value="90" max="100"></progress>
+            </div>          
+            <div>
+                <div class="flex items-center justify-between">
+                    <p>React JS</p>
+                    <h4>85%</h4>
+                </div>
+                <progress class="progress progress-info " value="85" max="100"></progress>
+            </div>          
+            <div>
+                <div class="flex items-center justify-between">
+                    <p>Node JS</p>
+                    <h4>80%</h4>
+                </div>
+                <progress class="progress progress-success " value="80" max="100"></progress>
+            </div>          
+            <div>
+                <div class="flex items-center justify-between">
+                    <p>Express JS</p>
+                    <h4>85%</h4>
+                </div>
+                <progress class="progress progress-info " value="85" max="100"></progress>
+            </div>          
+            <div>
+                <div class="flex items-center justify-between">
+                    <p>MOngoDB</p>
+                    <h4>90%</h4>
+                </div>
+                <progress class="progress progress-success " value="90" max="100"></progress>
+            </div>          
+        </div>
+    </div>
+</section>
+<!-- Skill section ends here -->
+
+<!-- Portfolio section starts here -->
+<section class="px-3 md:px-6 lg:px-12 mt-12 md:mt-16 lg:mt-24">
+    <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-400  to-cyan-600">My Portfolio Showcase</h2>
+    <div class="text-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-12 md:mt-16 lg:mt-24">
+        <div class="border border-gray-600 p-3 rounded-xl shadow-lg bg-gradient-to-r from-[#1e272e] to-[#2a3442] transition-all duration-300 hover:shadow-cyan-500/25  hover:scale-105">
+            <a href=""><img src="images/portfolio-01.png" class="w-full rounded-xl mb-3" alt=""></a>
+            <a href="#" class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">AE Architects</a>
+        </div>
+        <div class="border border-gray-600 p-3 rounded-xl shadow-lg bg-gradient-to-r from-[#1e272e] to-[#2a3442] transition-all duration-300 hover:shadow-cyan-500/25  hover:scale-105">
+            <a href=""><img src="images/portfolio-01.png" class="w-full rounded-xl mb-3" alt=""></a>
+            <a href="#" class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">AE Architects</a>
+        </div>
+        <div class="border border-gray-600 p-3 rounded-xl shadow-lg bg-gradient-to-r from-[#1e272e] to-[#2a3442] transition-all duration-300 hover:shadow-cyan-500/25  hover:scale-105">
+            <a href=""><img src="images/portfolio-01.png" class="w-full rounded-xl mb-3" alt=""></a>
+            <a href="#" class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">AE Architects</a>
+        </div>
+        <div class="border border-gray-600 p-3 rounded-xl shadow-lg bg-gradient-to-r from-[#1e272e] to-[#2a3442] transition-all duration-300 hover:shadow-cyan-500/25  hover:scale-105">
+            <a href=""><img src="images/portfolio-01.png" class="w-full rounded-xl mb-3" alt=""></a>
+            <a href="#" class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">AE Architects</a>
+        </div>
+        <div class="border border-gray-600 p-3 rounded-xl shadow-lg bg-gradient-to-r from-[#1e272e] to-[#2a3442] transition-all duration-300 hover:shadow-cyan-500/25  hover:scale-105">
+            <a href=""><img src="images/portfolio-01.png" class="w-full rounded-xl mb-3" alt=""></a>
+            <a href="#" class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">AE Architects</a>
+        </div>
+        <div class="border border-gray-600 p-3 rounded-xl shadow-lg bg-gradient-to-r from-[#1e272e] to-[#2a3442] transition-all duration-300 hover:shadow-cyan-500/25  hover:scale-105">
+            <a href=""><img src="images/portfolio-01.png" class="w-full rounded-xl mb-3" alt=""></a>
+            <a href="#" class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">AE Architects</a>
+        </div>
+        <div class="border border-gray-600 p-3 rounded-xl shadow-lg bg-gradient-to-r from-[#1e272e] to-[#2a3442] transition-all duration-300 hover:shadow-cyan-500/25  hover:scale-105">
+            <a href=""><img src="images/portfolio-01.png" class="w-full rounded-xl mb-3" alt=""></a>
+            <a href="#" class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">AE Architects</a>
+        </div>
+        <div class="border border-gray-600 p-3 rounded-xl shadow-lg bg-gradient-to-r from-[#1e272e] to-[#2a3442] transition-all duration-300 hover:shadow-cyan-500/25  hover:scale-105">
+            <a href=""><img src="images/portfolio-01.png" class="w-full rounded-xl mb-3" alt=""></a>
+            <a href="#" class="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#38ef7d] to-[#11998e]">AE Architects</a>
+        </div>
+    </div>
+    <div class="text-center mt-12">
+        <button type='button' class='py-2.5 px-6 rounded-lg bg-gradient-to-r from-[#38ef7d] to-[#11998e] text-white cursor-pointer font-semibold text-center shadow-xs transition-all duration-300 hover:bg-gradient-to-l'>See More</button>
+    </div>
+
+</section>
+<!-- Portfolio section ends here -->
 </main>
 <!-- Main section ends here -->
 
